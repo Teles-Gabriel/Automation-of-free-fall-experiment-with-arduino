@@ -1,9 +1,16 @@
 # Automation-of-free-fall-experiment-with-arduino
 ## Author: Gabriel Teles
+# Introduction
+
 This project was developed for the delivery of the final work of the Scientific Instrumentation Laboratory discipline offered at the University of Brasília(UnB).
 The ultimate goal of this project is to have an automated device using Arduino that is easy to assemble and calculates the value of gravity at the location where it is assembled.
-# Introduction
+<br/>
+
+The $C++$ language is highly portable, which means that you can write code once and run it on different platforms. With Arduino, you can develop and test your project in a prototyping environment and then easily transfer the code to a real Arduino for implementation. This makes the development process more efficient and facilitates the transition from prototype to the final product.The use of C++ and Arduino in projects offers efficiency, hardware control, an active community for support and learning, as well as the ability to prototype and easily transfer code for implementation on real devices. These combined advantages make this combination a popular choice for developers of electronic projects.
+<br/>
+
 The free fall experiment consists of dropping an object from a height X<sub>0</sub> and measuring the time of fall to a point X<sub>1</sub>, to calculate the value of gravitational acceleration(g), we use the hourly equation of space(eq.1), isolating the variable g(eq.2).
+<br/>
 <br/>
 $x_1 = x_0 + v_0 \cdot t + \frac{1}{2} \cdot a \cdot t^2\$  (eq.1)
 <br/>
@@ -21,8 +28,8 @@ $h = \Delta X$
 <br/>
 $g = \frac{2h}{t²}$   (eq.2)
 <br/>
-# Code
-To edit this code you need to have the Arduino IDE installed and to implement this code you need to have an arduino Uno r3 board.
+# Development
+To edit this code you need to have the [Arduino IDE](https://www.arduino.cc/en/software) installed and to implement this code you need to have an arduino Uno r3 board.
 # Materials
 * 1 Arduino Uno R3
 * 1 Protoboard
@@ -32,7 +39,7 @@ To edit this code you need to have the Arduino IDE installed and to implement th
 * 1 Electromagnet coil
 * Jumpers
 
-# Test the components
+# Test the hardware components
 
 To test the button, use the code available in the folder [Button-state-read-test](https://github.com/Teles-Gabriel/Automation-of-free-fall-experiment-with-arduino/blob/main/Button-state-read-test/Button-state-read-test.ino), mount a normally open button on the breadboard, in one of the terminals connect the +5v supply, in the corresponding output terminal, connect the digital port 7. See the results on the serial port.
 <br/>
