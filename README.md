@@ -1,4 +1,5 @@
 # Automation-of-free-fall-experiment-with-arduino
+## Author: Gabriel Teles
 This project was developed for the delivery of the final work of the Scientific Instrumentation Laboratory discipline offered at the University of Brasília(UnB).
 The ultimate goal of this project is to have an automated device using Arduino that is easy to assemble and calculates the value of gravity at the location where it is assembled.
 # Introduction
@@ -35,7 +36,11 @@ To edit this code you need to have the Arduino IDE installed and to implement th
 
 To test the button, use the code available in the folder [Button-state-read-test](https://github.com/Teles-Gabriel/Automation-of-free-fall-experiment-with-arduino/blob/main/Button-state-read-test/Button-state-read-test.ino), mount a normally open button on the breadboard, in one of the terminals connect the +5v supply, in the corresponding output terminal, connect the digital port 7. See the results on the serial port.
 <br/>
-To avoid interference from the environment, pull down the button output(connect to GND).
-<br/>
+To avoid interference from the environment, pull down the button output(connect to GND). Test with the code available at [test-read-button-no-interference](https://github.com/Teles-Gabriel/Automation-of-free-fall-experiment-with-arduino/blob/main/test-read-button-no-interference/test-read-button-no-interference.ino) to see how the component works by reading just 1 click
 To test the phototransistor reading, use the standard example available in the Arduino IDE, AnalogReadSerial.
 <br/>
+After understanding the functioning of the components separately, see the complete code available in [free-fall](https://github.com/Teles-Gabriel/Automation-of-free-fall-experiment-with-arduino/blob/main/free-fall/free-fall.ino).
+<br/>
+For questions about the operation of any part of the project, please contact us.
+<br/>
+[gabrielteles0609@gmail.com](mailto:gabrielteles0609@gmail.com)
